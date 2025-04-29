@@ -20,7 +20,7 @@ function toggleActive() {
     <header class="sticky top-0 shadow-md py-2">
         <Wrapper classes="flex justify-between items-center">
             <h1 class="text-3xl font-bold max-md:py-0.5">
-                Guitar<span class="text-red-700">Devil</span>
+                <a href="#"> Guitar<span class="text-red-700">Devil</span></a>
             </h1>
 
             <nav

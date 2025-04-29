@@ -4,17 +4,17 @@ import Wrapper from "./Wrapper.vue";
 
 <template>
     <div
-        class="hero-height bg-[url(/jonny-swales-guitar-repair.jpg)] bg-center bg-cover"
+        class="h-[calc(100vh-63px)] bg-[url(/jonny-swales-guitar-repair.jpg)] bg-center bg-cover"
     >
-        <Wrapper classes="hero-height flex flex-col justify-center">
+        <Wrapper classes="h-[calc(100vh-63px)] flex flex-col justify-center">
             <h2
-                class="font-bold text-2xl md:text-3xl lg:text-4xl text-center text-white text-shadow-lg mb-10"
+                class="font-bold text-2xl md:text-3xl lg:text-4xl text-center text-white text-shadow-lg"
             >
                 We are specialists in vintage guitar restoration and repair
             </h2>
 
             <p
-                class="font-medium text-md md:text-lg lg:text-xl text-center text-white text-shadow-lg mb-10"
+                class="font-medium text-md md:text-lg lg:text-xl text-center text-white text-shadow-lg my-10"
             >
                 Led by Damien Lufrice, a professional luthier for over 30 years,
                 we possess an extensive knowledge and understanding of vintage
@@ -38,9 +38,3 @@ import Wrapper from "./Wrapper.vue";
         </Wrapper>
     </div>
 </template>
-
-<style scoped>
-.hero-height {
-    min-height: calc(100vh - 63px);
-}
-</style>
