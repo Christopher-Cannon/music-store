@@ -4,9 +4,11 @@ import Wrapper from "./Wrapper.vue";
 
 <template>
     <div
-        class="h-[calc(100vh-63px)] bg-[url(/jonny-swales-guitar-repair.jpg)] bg-center bg-cover"
+        class="min-h-[calc(100vh-63px)] bg-[url(/jonny-swales-guitar-repair.jpg)] bg-center bg-cover"
     >
-        <Wrapper classes="h-[calc(100vh-63px)] flex flex-col justify-center">
+        <Wrapper
+            classes="min-h-[calc(100vh-63px)] flex flex-col justify-center"
+        >
             <h2
                 class="font-bold text-2xl md:text-3xl lg:text-4xl text-center text-white text-shadow-lg"
             >
