@@ -1,0 +1,46 @@
+<script setup>
+import Wrapper from "./Wrapper.vue";
+</script>
+
+<template>
+    <div
+        class="hero-height bg-[url(/jonny-swales-guitar-repair.jpg)] bg-center bg-cover"
+    >
+        <Wrapper classes="hero-height flex flex-col justify-center">
+            <h2
+                class="font-bold text-2xl md:text-3xl lg:text-4xl text-center text-white text-shadow-lg mb-10"
+            >
+                We are specialists in vintage guitar restoration and repair
+            </h2>
+
+            <p
+                class="font-medium text-md md:text-lg lg:text-xl text-center text-white text-shadow-lg mb-10"
+            >
+                Led by Damien Lufrice, a professional luthier for over 30 years,
+                we possess an extensive knowledge and understanding of vintage
+                instruments, construction, finishing techniques, materials and
+                processes to ensure work is carried out to exacting high
+                standards.
+            </p>
+
+            <div class="flex justify-center gap-6">
+                <a
+                    href="#"
+                    class="btn bg-red-700 hover:bg-red-800 text-white rounded-md"
+                    >See Our Work</a
+                >
+                <a
+                    href="#"
+                    class="btn bg-red-700 hover:bg-red-800 text-white rounded-md"
+                    >Get In Touch</a
+                >
+            </div>
+        </Wrapper>
+    </div>
+</template>
+
+<style scoped>
+.hero-height {
+    min-height: calc(100vh - 63px);
+}
+</style>
