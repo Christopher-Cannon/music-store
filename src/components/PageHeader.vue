@@ -24,15 +24,41 @@ function toggleActive() {
             </h1>
 
             <nav
-                class="navigation lg:shadow-none md:shadow-none shadow-md"
+                class="fixed top-[59px] left-0 md:static lg:shadow-none md:shadow-none shadow-md bg-white w-full md:w-auto"
                 :class="{ 'hidden-mobile': isHidden }"
                 id="navigation"
             >
-                <ul class="nav-list lg:gap-10 md:gap-6">
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Case Studies</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                <ul
+                    class="flex flex-col md:flex-row lg:gap-10 md:gap-6 text-center"
+                >
+                    <li>
+                        <a
+                            href="#"
+                            class="p-[0.5rem] block hover:bg-red-700 hover:text-white"
+                            >Services</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            class="p-[0.5rem] block hover:bg-red-700 hover:text-white"
+                            >Case Studies</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            class="p-[0.5rem] block hover:bg-red-700 hover:text-white"
+                            >Gallery</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            class="p-[0.5rem] block hover:bg-red-700 hover:text-white"
+                            >Contact Us</a
+                        >
+                    </li>
                 </ul>
             </nav>
 
