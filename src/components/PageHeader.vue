@@ -19,7 +19,7 @@ function toggleActive() {
 <template>
     <header class="sticky top-0 shadow-md py-2">
         <Wrapper classes="flex justify-between items-center">
-            <h1 class="text-3xl font-bold">
+            <h1 class="text-3xl font-bold max-md:py-0.5">
                 Guitar<span class="text-red-700">Devil</span>
             </h1>
 
