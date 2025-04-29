@@ -34,28 +34,28 @@ function toggleActive() {
                     <li>
                         <a
                             href="#"
-                            class="p-[0.5rem] block hover:bg-red-700 hover:text-white"
+                            class="p-[0.5rem] block max-md:hover:bg-red-700 max-md:hover:text-white md:hover:text-red-700 md:hover:underline"
                             >Services</a
                         >
                     </li>
                     <li>
                         <a
                             href="#"
-                            class="p-[0.5rem] block hover:bg-red-700 hover:text-white"
+                            class="p-[0.5rem] block max-md:hover:bg-red-700 max-md:hover:text-white md:hover:text-red-700 md:hover:underline"
                             >Case Studies</a
                         >
                     </li>
                     <li>
                         <a
                             href="#"
-                            class="p-[0.5rem] block hover:bg-red-700 hover:text-white"
+                            class="p-[0.5rem] block max-md:hover:bg-red-700 max-md:hover:text-white md:hover:text-red-700 md:hover:underline"
                             >Gallery</a
                         >
                     </li>
                     <li>
                         <a
                             href="#"
-                            class="p-[0.5rem] block hover:bg-red-700 hover:text-white"
+                            class="p-[0.5rem] block max-md:hover:bg-red-700 max-md:hover:text-white md:hover:text-red-700 md:hover:underline"
                             >Contact Us</a
                         >
                     </li>
