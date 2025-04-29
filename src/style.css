@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 1000px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media screen and (max-width: 767.97px) {
+    .navigation {
+        background-color: white;
+        position: fixed;
+        top: 59px;
+        left: 0;
+        width: 100%;
+    }
+
+    .nav-list a {
+        display: block;
+        padding: 0.5rem;
+    }
+
+    .nav-list a:hover {
+        background-color: #eee;
+    }
+
+    .hidden-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav-list {
+        flex-direction: row;
+    }
+
+    .hidden-desktop {
+        display: none;
+    }
+}
+
+.hidden {
+    display: none;
+}
