@@ -41,7 +41,7 @@ const activeIndex = ref(0);
             />
 
             <button
-                class="absolute cursor-pointer bg-stone-800 z-10 top-[calc(50%-23px)] lg:top-[calc(50%-32px)] ml-1 lg:ml-2 rounded-full w-[46px] h-[46px] lg:w-[64px] lg:h-[64px]"
+                class="absolute cursor-pointer bg-stone-800 hover:bg-stone-700 z-10 top-[calc(50%-23px)] lg:top-[calc(50%-32px)] ml-1 lg:ml-2 rounded-full w-[46px] h-[46px] lg:w-[64px] lg:h-[64px]"
                 @click="
                     activeIndex =
                         activeIndex - 1 < 0 ? data.length - 1 : activeIndex - 1
@@ -54,7 +54,7 @@ const activeIndex = ref(0);
             </button>
 
             <button
-                class="absolute cursor-pointer bg-stone-800 z-10 top-[calc(50%-23px)] lg:top-[calc(50%-32px)] right-0 mr-1 lg:mr-2 rounded-full w-[46px] h-[46px] lg:w-[64px] lg:h-[64px]"
+                class="absolute cursor-pointer bg-stone-800 hover:bg-stone-700 z-10 top-[calc(50%-23px)] lg:top-[calc(50%-32px)] right-0 mr-1 lg:mr-2 rounded-full w-[46px] h-[46px] lg:w-[64px] lg:h-[64px]"
                 @click="
                     activeIndex =
                         activeIndex + 1 === data.length ? 0 : activeIndex + 1
@@ -70,12 +70,18 @@ const activeIndex = ref(0);
 </template>
 
 <style scoped>
+button {
+    transition: background-color 0.1s ease-in-out;
+}
+
 img {
-    display: none;
-    transition: display 0.1s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.1s ease-in-out, visibility 0.1s ease-in-out;
 }
 
 .active {
-    display: block;
+    opacity: 1;
+    visibility: visible;
 }
 </style>
