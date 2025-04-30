@@ -44,7 +44,7 @@ const activeIndex = ref(0);
                 class="absolute cursor-pointer bg-stone-800 z-10 top-[calc(50%-23px)] lg:top-[calc(50%-32px)] ml-1 lg:ml-2 rounded-full w-[46px] h-[46px] lg:w-[64px] lg:h-[64px]"
                 @click="
                     activeIndex =
-                        activeIndex < 0 ? data.length - 1 : activeIndex - 1
+                        activeIndex - 1 < 0 ? data.length - 1 : activeIndex - 1
                 "
             >
                 <font-awesome-icon
@@ -57,7 +57,7 @@ const activeIndex = ref(0);
                 class="absolute cursor-pointer bg-stone-800 z-10 top-[calc(50%-23px)] lg:top-[calc(50%-32px)] right-0 mr-1 lg:mr-2 rounded-full w-[46px] h-[46px] lg:w-[64px] lg:h-[64px]"
                 @click="
                     activeIndex =
-                        activeIndex === data.length ? 0 : activeIndex + 1
+                        activeIndex + 1 === data.length ? 0 : activeIndex + 1
                 "
             >
                 <font-awesome-icon
@@ -72,6 +72,7 @@ const activeIndex = ref(0);
 <style scoped>
 img {
     display: none;
+    transition: display 0.1s ease-in-out;
 }
 
 .active {
