@@ -1,5 +1,6 @@
 <script setup>
 import PageSection from "./PageSection.vue";
+import ImageCard from "./ImageCard.vue";
 </script>
 
 <template>
@@ -14,37 +15,39 @@ import PageSection from "./PageSection.vue";
             and other stringed instruments.
         </p>
 
-        <div class="flex flex-col lg:flex-row flex-wrap justify-center">
-            <div
-                class="card-transition shadow-md hover:shadow-lg rounded-md text-center"
+        <div class="flex lg:flex-row justify-center max-lg:flex-wrap gap-10">
+            <ImageCard
+                image="/epiphone-repair/epiphone-1.jpg"
+                alt="epiphone eb3 bass guitar broken neck"
+                heading="Repair"
             >
-                <img
-                    src="/epiphone-repair/epiphone-1.jpg"
-                    alt="epiphone eb3 bass broken neck"
-                    class="block h-[250px] lg:h-[200px] object-cover w-full rounded-tl-md rounded-tr-md"
-                />
+                Our traditional approach to repair techniques uses appropriate
+                materials and tooling and we always advise the repair and
+                servicing of existing parts where possible to retain originality
+                and value.
+            </ImageCard>
 
-                <div class="p-5">
-                    <h3
-                        class="font-extrabold text-lg md:text-xl lg:text-2xl mb-3"
-                    >
-                        Guitar Repairs
-                    </h3>
+            <ImageCard
+                image="/gretsch-restoration/gretsch-4.jpg"
+                alt="restored gretsch guitar"
+                heading="Restoration"
+            >
+                We have the knowledge and expertise to repair instruments with
+                extreme major structural damage, including ones that might look
+                impossible or which are in several pieces needing extensive
+                rebuild.
+            </ImageCard>
 
-                    <p>
-                        We have the knowledge and expertise to repair
-                        instruments with extreme major structural damage,
-                        including ones that might look impossible or which are
-                        in several pieces needing extensive rebuild.
-                    </p>
-                </div>
-            </div>
+            <ImageCard
+                image="/home-gallery/example-2.jpg"
+                alt="modified les paul guitar"
+                heading="Modification"
+            >
+                A fair proportion of our work involves modifying modern
+                instruments and we offer a full range of professional services
+                to get your guitars, basses and folk instruments modified the
+                way you want them.
+            </ImageCard>
         </div>
     </PageSection>
 </template>
-
-<style scoped>
-.card-transition {
-    transition: box-shadow 0.1s ease-in-out;
-}
-</style>
