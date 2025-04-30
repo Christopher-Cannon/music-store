@@ -10,7 +10,7 @@ import Wrapper from "./Wrapper.vue";
             classes="min-h-[calc(100vh-63px)] flex flex-col justify-center"
         >
             <h2
-                class="font-bold text-2xl md:text-3xl lg:text-4xl text-center text-white text-shadow-lg"
+                class="font-black text-2xl md:text-3xl lg:text-4xl text-center text-white text-shadow-lg"
             >
                 We are specialists in vintage guitar restoration and repair
             </h2>
