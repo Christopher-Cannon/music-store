@@ -1,5 +1,6 @@
 <script setup>
 import Wrapper from "./Wrapper.vue";
+import NavLink from "./NavLink.vue";
 import { ref } from "vue";
 
 const isHidden = ref(true);
@@ -32,32 +33,16 @@ function toggleActive() {
                     class="flex flex-col md:flex-row lg:gap-10 md:gap-6 text-center"
                 >
                     <li>
-                        <a
-                            href="#"
-                            class="p-[0.5rem] block max-md:hover:bg-red-700 max-md:hover:text-white md:hover:text-red-700 md:hover:underline"
-                            >Services</a
-                        >
+                        <NavLink url="#" text="Services" />
                     </li>
                     <li>
-                        <a
-                            href="#"
-                            class="p-[0.5rem] block max-md:hover:bg-red-700 max-md:hover:text-white md:hover:text-red-700 md:hover:underline"
-                            >Case Studies</a
-                        >
+                        <NavLink url="#" text="Case Studies" />
                     </li>
                     <li>
-                        <a
-                            href="#"
-                            class="p-[0.5rem] block max-md:hover:bg-red-700 max-md:hover:text-white md:hover:text-red-700 md:hover:underline"
-                            >Gallery</a
-                        >
+                        <NavLink url="#" text="Gallery" />
                     </li>
                     <li>
-                        <a
-                            href="#"
-                            class="p-[0.5rem] block max-md:hover:bg-red-700 max-md:hover:text-white md:hover:text-red-700 md:hover:underline"
-                            >Contact Us</a
-                        >
+                        <NavLink url="#" text="Contact Us" />
                     </li>
                 </ul>
             </nav>
