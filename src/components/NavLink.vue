@@ -5,7 +5,7 @@ const { url, text } = defineProps(["url", "text"]);
 <template>
     <a
         :href="url"
-        class="navlink navlink-transition p-[0.5rem] block max-md:hover:bg-red-700 max-md:hover:text-white md:hover:text-red-700"
+        class="navlink navlink-transition font-medium p-[0.5rem] block max-md:hover:bg-red-700 max-md:hover:text-white md:hover:text-red-700"
         >{{ text }}</a
     >
 </template>
@@ -25,7 +25,7 @@ const { url, text } = defineProps(["url", "text"]);
         position: absolute;
         content: "";
         bottom: 8px;
-        left: 0;
+        left: 0.5rem;
         height: 2px;
         width: 0;
         transition: width 0.1s ease-in-out;
@@ -33,7 +33,7 @@ const { url, text } = defineProps(["url", "text"]);
 
     .navlink:hover::after {
         background-color: #c10007;
-        width: 100%;
+        width: calc(100% - 1rem);
     }
 }
 </style>
