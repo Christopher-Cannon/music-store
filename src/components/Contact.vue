@@ -84,6 +84,22 @@ function submitForm() {
                 </div>
             </div>
         </div>
+
+        <div>
+            <h3
+                class="font-black text-lg md:text-xl lg:text-2xl mt-5 lg:mt-10 mb-5"
+            >
+                Find Us
+            </h3>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58727.01550748981!2d-1.5523654925765331!3d52.92679174766864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879f6cc4dc442b9%3A0x2f752bc1ed6d5893!2sKingsway%20Retail%20Park!5e1!3m2!1sen!2suk!4v1746085906153!5m2!1sen!2suk"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="w-full h-[450px] border-0"
+            ></iframe>
+        </div>
     </PageSection>
 </template>
 
