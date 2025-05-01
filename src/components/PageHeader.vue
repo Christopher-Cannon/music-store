@@ -30,7 +30,7 @@ function toggleActive() {
                 id="navigation"
             >
                 <ul
-                    class="flex flex-col md:flex-row lg:gap-10 md:gap-6 text-center"
+                    class="flex flex-col md:flex-row md:gap-6 lg:gap-10 text-center"
                 >
                     <li>
                         <NavLink url="#" text="Services" />

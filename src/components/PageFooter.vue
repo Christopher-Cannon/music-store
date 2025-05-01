@@ -14,7 +14,7 @@ import Wrapper from "./Wrapper.vue";
                 </div>
 
                 <ul
-                    class="flex flex-col md:flex-row justify-between gap-5 md:gap-10 max-md:text-center"
+                    class="flex flex-col md:flex-row justify-between gap-5 md:gap-11 lg:gap-14 max-md:text-center"
                 >
                     <li>
                         <a href="#" class="link lighter"
