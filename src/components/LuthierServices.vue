@@ -1,6 +1,7 @@
 <script setup>
 import PageSection from "./PageSection.vue";
 import ImageCard from "./ImageCard.vue";
+import ButtonGroup from "./ButtonGroup.vue";
 </script>
 
 <template>
@@ -48,5 +49,10 @@ import ImageCard from "./ImageCard.vue";
                 way you want them.
             </ImageCard>
         </div>
+
+        <ButtonGroup
+            :data="[{ url: '#', text: 'View Case Studies' }]"
+            class="mt-10"
+        />
     </PageSection>
 </template>

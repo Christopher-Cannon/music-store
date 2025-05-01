@@ -1,5 +1,17 @@
 <script setup>
 import Wrapper from "./Wrapper.vue";
+import ButtonGroup from "./ButtonGroup.vue";
+
+const data = [
+    {
+        url: "#",
+        text: "See Our Work",
+    },
+    {
+        url: "#",
+        text: "Get In Touch",
+    },
+];
 </script>
 
 <template>
@@ -25,7 +37,9 @@ import Wrapper from "./Wrapper.vue";
                 standards.
             </p>
 
-            <div class="flex justify-center gap-6">
+            <ButtonGroup :data="data" />
+
+            <!-- <div class="flex justify-center gap-6">
                 <a
                     href="#"
                     class="btn bg-red-700 hover:bg-red-800 text-white rounded-md"
@@ -36,7 +50,7 @@ import Wrapper from "./Wrapper.vue";
                     class="btn bg-red-700 hover:bg-red-800 text-white rounded-md"
                     >Get In Touch</a
                 >
-            </div>
+            </div> -->
         </Wrapper>
     </div>
 </template>
