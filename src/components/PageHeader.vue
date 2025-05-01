@@ -33,16 +33,16 @@ function toggleActive() {
                     class="flex flex-col md:flex-row md:gap-6 lg:gap-10 text-center"
                 >
                     <li>
-                        <NavLink url="#" text="Services" />
+                        <NavLink url="#luthier-services" text="Services" />
                     </li>
                     <li>
                         <NavLink url="#" text="Case Studies" />
                     </li>
                     <li>
-                        <NavLink url="#" text="Gallery" />
+                        <NavLink url="#gallery" text="Gallery" />
                     </li>
                     <li>
-                        <NavLink url="#" text="Contact Us" />
+                        <NavLink url="#contact" text="Contact Us" />
                     </li>
                 </ul>
             </nav>

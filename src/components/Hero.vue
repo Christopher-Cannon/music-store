@@ -24,7 +24,7 @@ const data = [
             <h2
                 class="font-black text-2xl md:text-3xl lg:text-4xl text-center text-white text-shadow-lg"
             >
-                We are specialists in vintage guitar restoration and repair
+                We specialise in vintage guitar restoration and repair
             </h2>
 
             <p

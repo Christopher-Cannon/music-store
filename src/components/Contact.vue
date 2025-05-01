@@ -19,6 +19,7 @@ function submitForm() {
         heading="Contact Us"
         bgColour="bg-stone-100"
         fgColour="text-black"
+        id="contact"
     >
         <div class="lg:flex justify-between gap-15 lg:mt-3">
             <form @submit.prevent="submitForm" class="flex-1">

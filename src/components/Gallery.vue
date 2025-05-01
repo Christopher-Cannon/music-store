@@ -29,6 +29,7 @@ const activeIndex = ref(0);
         heading="Gallery"
         bgColour="bg-stone-900"
         fgColour="text-white"
+        id="gallery"
     >
         <div
             class="gallery-container relative h-[300px] md:h-[500px] lg:h-[700px] mt-8"

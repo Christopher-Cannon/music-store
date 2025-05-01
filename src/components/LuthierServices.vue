@@ -9,6 +9,7 @@ import ButtonGroup from "./ButtonGroup.vue";
         heading="Luthier Services"
         bgColour="bg-stone-100"
         fgColour="text-black"
+        id="luthier-services"
     >
         <p class="text-center mt-5 mb-10">
             A comprehensive range of services is offered for both vintage and
