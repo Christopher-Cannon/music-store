@@ -5,6 +5,7 @@ import { ref } from "vue";
 const form = ref({
     fullname: "",
     email: "",
+    work: "",
     message: "",
 });
 
@@ -21,7 +22,7 @@ const subtitle = "Whether you need specific work done on an instrument or just w
         <p class="lg:hidden mt-5 text-center">{{ subtitle }}</p>
 
         <div class="lg:flex justify-between gap-15 mt-8">
-            <form @submit.prevent="submitForm" class="flex-1">
+            <form @submit.prevent="submitForm" class="relative flex-1">
                 <label for="fullname">Full Name</label>
                 <input v-model="form.fullname" type="text" name="fullname"
                     class="rounded-md border-black focus:border-red-700 border-1 outline-0 focus:outline-red-700 focus:outline-1 focus:outline-solid" />
@@ -31,7 +32,7 @@ const subtitle = "Whether you need specific work done on an instrument or just w
                     class="rounded-md border-black focus:border-red-700 border-1 outline-0 focus:outline-red-700 focus:outline-1 focus:outline-solid" />
 
                 <label for="work">Work Sought</label>
-                <select name="work"
+                <select v-model="form.work" name="work"
                     class="rounded-md border-black focus:border-red-700 border-1 outline-0 focus:outline-red-700 focus:outline-1 focus:outline-solid">
                     <option value="repair">Repair</option>
                     <option value="restoration">Restoration</option>
@@ -92,10 +93,6 @@ const subtitle = "Whether you need specific work done on an instrument or just w
 
 <style scoped>
 @media screen and (min-width: 1024px) {
-    form {
-        position: relative;
-    }
-
     form::after {
         background-color: black;
         content: "";
