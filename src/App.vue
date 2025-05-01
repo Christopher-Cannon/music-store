@@ -4,6 +4,7 @@ import Hero from "./components/Hero.vue";
 import LuthierServices from "./components/LuthierServices.vue";
 import Gallery from "./components/Gallery.vue";
 import Contact from "./components/Contact.vue";
+import PageFooter from "./components/PageFooter.vue";
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import Contact from "./components/Contact.vue";
         <LuthierServices />
         <Gallery />
         <Contact />
+        <PageFooter />
     </div>
 </template>

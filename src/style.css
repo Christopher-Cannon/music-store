@@ -59,6 +59,14 @@ textarea {
     font-weight: 500;
 }
 
+.link:hover {
+    text-decoration: underline;
+}
+
+.link.lighter {
+    color: #fb2c36;
+}
+
 @media screen and (max-width: 767.97px) {
     .hidden-mobile {
         display: none;

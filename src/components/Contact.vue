@@ -57,7 +57,7 @@ function submitForm() {
                 class="lg:hidden my-10 h-0.5 border-0 bg-black max-w-100 m-auto"
             />
 
-            <div class="md:flex justify-around gap:10 lg:block flex-1">
+            <div class="md:flex justify-around gap-10 lg:block flex-1">
                 <div class="flex-1">
                     <h3 class="font-black text-lg md:text-xl lg:text-2xl my-5">
                         Address
