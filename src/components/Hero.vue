@@ -30,7 +30,7 @@ const data = [
             <p
                 class="font-medium text-md md:text-lg lg:text-xl text-center text-white text-shadow-lg my-10"
             >
-                Led by Damien Lufrice, a professional luthier for over 30 years,
+                Led by Damien Antas, a professional luthier for over 30 years,
                 we possess an extensive knowledge and understanding of vintage
                 instruments, construction, finishing techniques, materials and
                 processes to ensure work is carried out to exacting high
