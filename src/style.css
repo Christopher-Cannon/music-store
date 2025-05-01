@@ -54,6 +54,11 @@ textarea {
     transition: background-color 0.1s ease-in-out;
 }
 
+.link {
+    color: #c10007;
+    font-weight: 500;
+}
+
 @media screen and (max-width: 767.97px) {
     .hidden-mobile {
         display: none;

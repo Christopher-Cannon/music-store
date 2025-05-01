@@ -10,7 +10,7 @@ import ButtonGroup from "./ButtonGroup.vue";
         bgColour="bg-stone-100"
         fgColour="text-black"
     >
-        <p class="text-center mt-3 mb-8">
+        <p class="text-center mt-5 mb-10">
             A comprehensive range of services is offered for both vintage and
             modern guitars and basses, acoustic or electric, ukuleles, mandolins
             and other stringed instruments.

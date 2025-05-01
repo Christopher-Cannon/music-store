@@ -10,7 +10,7 @@ const { heading, bgColour, fgColour } = defineProps([
 
 <template>
     <section
-        class="py-20"
+        class="pt-20 pb-28"
         :class="{ [bgColour]: bgColour, [fgColour]: fgColour }"
     >
         <Wrapper>
