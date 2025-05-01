@@ -17,6 +17,7 @@ body {
 body,
 input,
 textarea,
+select,
 button {
     font-family: "DM Sans", Arial, sans-serif;
     font-size: 1rem;
@@ -27,12 +28,14 @@ label {
 }
 
 input,
-textarea {
+textarea,
+select {
     display: block;
     width: 100%;
     max-width: 100%;
     margin-bottom: 1rem;
     padding: 0.5rem;
+    transition: border 0.1s ease-in-out, outline 0.1s ease-in-out;
 }
 
 textarea {
