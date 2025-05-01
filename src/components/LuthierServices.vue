@@ -33,9 +33,8 @@ import ImageCard from "./ImageCard.vue";
                 heading="Restoration"
             >
                 We have the knowledge and expertise to repair instruments with
-                extreme major structural damage, including ones that might look
-                impossible or which are in several pieces needing extensive
-                rebuild.
+                major structural damage, including ones that look impossible or
+                which are in several pieces needing extensive rebuild.
             </ImageCard>
 
             <ImageCard
