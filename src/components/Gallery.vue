@@ -30,13 +30,15 @@ const activeIndex = ref(0);
         bgColour="bg-stone-900"
         fgColour="text-white"
     >
-        <div class="relative h-[300px] md:h-[500px] lg:h-[700px] mt-8">
+        <div
+            class="gallery-container relative h-[300px] md:h-[500px] lg:h-[700px] mt-8"
+        >
             <img
                 v-for="(item, index) in data"
                 :key="index"
                 :src="item.src"
                 :alt="item.alt"
-                class="absolute z-1 display-block object-cover h-[300px] md:h-[500px] lg:h-[700px] w-full"
+                class="absolute z-1 display-block object-cover h-[300px] md:h-[500px] lg:h-[700px] w-full rounded-md"
                 :class="{ active: activeIndex === index }"
             />
 
@@ -70,8 +72,18 @@ const activeIndex = ref(0);
 </template>
 
 <style scoped>
-button {
-    transition: background-color 0.1s ease-in-out;
+@media screen and (min-width: 1024px) {
+    button {
+        opacity: 0;
+        visibility: hidden;
+        transition: background-color 0.1s ease-in-out, opacity 0.1s ease-in-out,
+            visibility 0.1s ease-in-out;
+    }
+
+    .gallery-container:hover button {
+        opacity: 1;
+        visibility: visible;
+    }
 }
 
 img {
