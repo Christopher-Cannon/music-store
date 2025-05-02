@@ -5,7 +5,7 @@ import { ref } from "vue";
 const form = ref({
     fullname: "",
     email: "",
-    work: "",
+    work: "inquiry",
     message: "",
 });
 
@@ -51,6 +51,7 @@ const subtitle =
                     name="work"
                     class="rounded-md border-black focus:border-red-700 border-1 outline-0 focus:outline-red-700 focus:outline-1 focus:outline-solid"
                 >
+                    <option value="inquiry">General inquiry</option>
                     <option value="repair">Repair</option>
                     <option value="restoration">Restoration</option>
                     <option value="modification">Modification</option>
@@ -118,7 +119,7 @@ const subtitle =
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-                class="w-full h-[450px] border-0"
+                class="w-full h-[450px] border-0 rounded-md"
             ></iframe>
         </div>
     </PageSection>
