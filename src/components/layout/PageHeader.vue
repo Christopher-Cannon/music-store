@@ -1,6 +1,6 @@
 <script setup>
 import Wrapper from "../common/Wrapper.vue";
-import NavLink from "../feature/page-header/NavLink.vue";
+import NavLink from "../common/NavLink.vue";
 import { ref } from "vue";
 
 const isHidden = ref(true);
