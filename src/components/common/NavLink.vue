@@ -28,7 +28,7 @@ const { url, text } = defineProps(["url", "text"]);
         left: 0.5rem;
         height: 2px;
         width: 0;
-        transition: width 0.1s ease-in-out;
+        transition:background-color 0.1s ease-in-out, width 0.1s ease-in-out;
     }
 
     .navlink:hover::after {
