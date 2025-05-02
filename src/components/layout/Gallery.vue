@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import PageSection from "./PageSection.vue";
+import PageSection from "../common/PageSection.vue";
 
 const data = [
     {

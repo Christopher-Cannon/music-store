@@ -1,6 +1,6 @@
 <script setup>
-import Wrapper from "./Wrapper.vue";
-import ButtonGroup from "./ButtonGroup.vue";
+import Wrapper from "../common/Wrapper.vue";
+import ButtonGroup from "../common/ButtonGroup.vue";
 
 const data = [
     {

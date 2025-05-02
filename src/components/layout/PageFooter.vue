@@ -1,5 +1,5 @@
 <script setup>
-import Wrapper from "./Wrapper.vue";
+import Wrapper from "../common/Wrapper.vue";
 </script>
 
 <template>

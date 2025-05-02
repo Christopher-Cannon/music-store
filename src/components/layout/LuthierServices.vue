@@ -1,7 +1,7 @@
 <script setup>
-import PageSection from "./PageSection.vue";
-import ImageCard from "./ImageCard.vue";
-import ButtonGroup from "./ButtonGroup.vue";
+import PageSection from "../common/PageSection.vue";
+import ImageCard from "../feature/luthier-services/ImageCard.vue";
+import ButtonGroup from "../common/ButtonGroup.vue";
 </script>
 
 <template>
