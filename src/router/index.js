@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from "../pages/Home.vue";
 import Portfolio from "../pages/Portfolio.vue";
+import Project from "../pages/Project.vue";
 
 const routes = [
     { path: '/', name: 'Home', component: Home },
@@ -9,6 +10,7 @@ const routes = [
     { path: '/', name: 'Home', component: Home, hash: '#gallery' },
     { path: '/', name: 'Home', component: Home, hash: '#contact' },
     { path: '/portfolio', name: 'Portfolio', component: Portfolio },
+    { path: '/portfolio/:id', name: 'Project', component: Project, props: true },
 ];
 
 const router = createRouter({

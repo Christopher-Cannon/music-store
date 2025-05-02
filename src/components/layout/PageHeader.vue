@@ -21,7 +21,7 @@ function toggleActive() {
     <header class="sticky top-0 z-100 shadow-md py-2 bg-white">
         <Wrapper classes="flex justify-between items-center">
             <h1 class="text-3xl font-black max-md:py-0.5">
-                <router-link to="#top"
+                <router-link to="/#top"
                     >Guitar<span class="text-red-700">Devil</span></router-link
                 >
             </h1>
@@ -35,16 +35,16 @@ function toggleActive() {
                     class="flex flex-col md:flex-row md:gap-6 lg:gap-10 text-center"
                 >
                     <li>
-                        <NavLink url="#luthier-services" text="Services" />
+                        <NavLink url="/#luthier-services" text="Services" />
                     </li>
                     <li>
-                        <NavLink url="portfolio" text="Case Studies" />
+                        <NavLink url="/portfolio" text="Case Studies" />
                     </li>
                     <li>
-                        <NavLink url="#gallery" text="Gallery" />
+                        <NavLink url="/#gallery" text="Gallery" />
                     </li>
                     <li>
-                        <NavLink url="#contact" text="Contact Us" />
+                        <NavLink url="/#contact" text="Contact Us" />
                     </li>
                 </ul>
             </nav>

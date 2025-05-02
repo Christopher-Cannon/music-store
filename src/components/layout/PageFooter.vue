@@ -3,7 +3,7 @@ import Wrapper from "../common/Wrapper.vue";
 </script>
 
 <template>
-    <div class="bg-stone-900 text-white py-10">
+    <footer class="bg-stone-900 text-white py-10">
         <Wrapper>
             <div class="md:flex justify-between">
                 <div class="max-md:text-center max-md:mb-5">
@@ -27,5 +27,5 @@ import Wrapper from "../common/Wrapper.vue";
                 </ul>
             </div>
         </Wrapper>
-    </div>
+    </footer>
 </template>
