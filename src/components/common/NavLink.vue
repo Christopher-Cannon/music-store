@@ -3,10 +3,10 @@ const { url, text } = defineProps(["url", "text"]);
 </script>
 
 <template>
-    <a
-        :href="url"
+    <router-link
+        :to="url"
         class="navlink navlink-transition font-medium p-[0.5rem] block max-md:hover:bg-red-700 max-md:hover:text-white md:hover:text-red-700"
-        >{{ text }}</a
+        >{{ text }}</router-link
     >
 </template>
 

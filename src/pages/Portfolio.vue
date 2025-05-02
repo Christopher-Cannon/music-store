@@ -1,9 +1,5 @@
-<script setup>
-import Page from "../components/layout/Page.vue";
-</script>
+<script setup></script>
 
 <template>
-    <Page>
-        <h1>Portfolio</h1>
-    </Page>
+    <h1>Portfolio</h1>
 </template>

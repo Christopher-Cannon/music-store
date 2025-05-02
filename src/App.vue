@@ -1,7 +1,12 @@
 <script setup>
-import Home from "./pages/Home.vue";
+import PageHeader from "./components/layout/PageHeader.vue";
+import PageFooter from "./components/layout/PageFooter.vue";
 </script>
 
 <template>
-    <Home />
+    <div class="relative">
+        <PageHeader />
+        <router-view />
+        <PageFooter />
+    </div>
 </template>
