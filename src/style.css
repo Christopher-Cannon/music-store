@@ -39,7 +39,7 @@ select {
 }
 
 select {
-    padding: 0.7rem inherit;
+    padding: 0.6rem 0.5rem;
 }
 
 textarea {
