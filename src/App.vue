@@ -4,9 +4,9 @@ import PageFooter from "./components/layout/PageFooter.vue";
 </script>
 
 <template>
-    <div class="relative">
+    <div class="relative min-h-[100vh] flex flex-col">
         <PageHeader />
-        <router-view />
+        <router-view class="flex-1" />
         <PageFooter />
     </div>
 </template>

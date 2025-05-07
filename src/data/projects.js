@@ -2,7 +2,7 @@ const projects = [
     {
         id: "epiphone-eb3-bass-neck-repair",
         title: "Epiphone EB3 bass guitar extensive neck break repair",
-        description: "This is the first project",
+        description: "This EB3 bass arrived with the headstock completely off, the fingerboard broken and partly missing, along with a missing nut and some inlays. The truss rod was still in perfect condition.",
         body: [
             {
                 heading: "Woodwork repairs",
@@ -19,7 +19,7 @@ const projects = [
     {
         id: "gretsch-country-gentleman-neck-restoration",
         title: "1964 Gretsch Country Gentleman neck restoration",
-        description: "This is the second project",
+        description: "Gretsch rebinding is a common occurance in our workshop. Many 60's model suffer with the dreaded binding rot! This 1964 country gentleman was in need of a full body and neck rebind and also needed a neck reset due to the shallow neck to body angle.",
         body: [
             {
                 heading: "Initial inspection and binding removal",
