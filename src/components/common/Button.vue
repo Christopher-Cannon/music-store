@@ -3,9 +3,9 @@ const { url, text } = defineProps(["url", "text"]);
 </script>
 
 <template>
-    <a
-        :href="url"
+    <router-link
+        :to="url"
         class="btn bg-red-700 hover:bg-red-800 text-white rounded-md"
-        >{{ text }}</a
+        >{{ text }}</router-link
     >
 </template>

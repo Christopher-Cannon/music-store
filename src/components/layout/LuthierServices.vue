@@ -52,7 +52,7 @@ import ButtonGroup from "../common/ButtonGroup.vue";
         </div>
 
         <ButtonGroup
-            :data="[{ url: '#', text: 'View Case Studies' }]"
+            :data="[{ url: '/portfolio', text: 'View Case Studies' }]"
             class="mt-10"
         />
     </PageSection>

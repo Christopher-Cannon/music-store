@@ -4,11 +4,11 @@ import ButtonGroup from "../common/ButtonGroup.vue";
 
 const data = [
     {
-        url: "#",
+        url: "/portfolio",
         text: "See Our Work",
     },
     {
-        url: "#",
+        url: "/#contact",
         text: "Get In Touch",
     },
 ];
